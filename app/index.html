@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+  <html ng-app='survey'>
+    <head>
+      <!--Import Google Icon Font-->
+      <title ng-bind="$state.current.data.pageTitle"></title>
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+      <link rel="stylesheet" href="bower_components/Materialize/dist/css/materialize.min.css">
+      <link type="text/css" rel="stylesheet" href="assets/css/main.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <div ui-view></div>
+      
+      <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+      <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
+      <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+      <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+      <script type="text/javascript" src="bower_components/angular-animate/angular-animate.min.js"></script>
+      <script type="text/javascript" src="bower_components/firebase/firebase.js"></script>
+      <script type="text/javascript" src="bower_components/angularfire/dist/angularfire.min.js"></script>
+      <script type="text/javascript" src="assets/js/app.js"></script> 
+      <script type="text/javascript" src="assets/js/services.js"></script> 
+      <script type="text/javascript" src="assets/js/controllers.js"></script> 
+      <script type="text/javascript" src="assets/js/components.js"></script> 
+    </body>
+  </html>
