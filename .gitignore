@@ -37,6 +37,7 @@ app/bower_components
 dist
 node_modules
 .tmp
+build
 
 # Ignore for RVM users #
 .ruby-version
